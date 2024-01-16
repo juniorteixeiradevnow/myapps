@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="material">6e083b444733311008334d05516d4303</ais_search_source>
+        <label>material</label>
+        <name>material</name>
+        <order>200</order>
+        <search_context_config display_value="Now Pro - Aula 06 AI Search Configuration">fbf7f34482333110ac7426563ab17bb2</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:15:42</sys_created_on>
+        <sys_id>ae083b444733311008334d05516d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>material</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_search_filter_ae083b444733311008334d05516d4315</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 12:15:42</sys_updated_on>
+    </sys_search_filter>
+</record_update>

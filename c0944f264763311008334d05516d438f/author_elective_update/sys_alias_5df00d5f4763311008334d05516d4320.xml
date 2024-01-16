@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_1174267_now_pr_0.conexaocomtwilio</id>
+        <multiple_connections>false</multiple_connections>
+        <name>conexaocomtwilio</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 15:00:45</sys_created_on>
+        <sys_id>5df00d5f4763311008334d05516d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1174267_now_pr_0.conexaocomtwilio</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_alias_5df00d5f4763311008334d05516d4320</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 15:00:45</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sys_alias_5df00d5f4763311008334d05516d4320</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><id>x_1174267_now_pr_0.conexaocomtwilio</id><multiple_connections>false</multiple_connections><name>conexaocomtwilio</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-10 15:00:45</sys_created_on><sys_id>5df00d5f4763311008334d05516d4320</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1174267_now_pr_0.conexaocomtwilio</sys_name><sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package><sys_policy/><sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope><sys_update_name>sys_alias_5df00d5f4763311008334d05516d4320</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-10 15:00:45</sys_updated_on><type>connection</type></sys_alias></record_update>]]></payload>
+        <payload_hash>190009927</payload_hash>
+        <record_name>x_1174267_now_pr_0.conexaocomtwilio</record_name>
+        <reverted_from/>
+        <source>84944f264763311008334d05516d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 15:00:45</sys_created_on>
+        <sys_id>9701cd1f4763311008334d05516d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf3e3dc010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 15:00:45</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>db01cd1fb663311075519bad89af6fce</update_guid>
+        <update_guid_history>db01cd1fb663311075519bad89af6fce:190009927</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 15:01:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>2d714a70e78946d89cf72032281a0e40</sys_id>
+        <sys_metadata>5df00d5f4763311008334d05516d4320</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1174267_now_pr_0.conexaocomtwilio</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_scope_delete display_value="">17306355dace42ec92787b9413e336c9</sys_scope_delete>
+        <sys_update_name>sys_alias_5df00d5f4763311008334d05516d4320</sys_update_name>
+        <sys_update_version display_value="sys_alias_5df00d5f4763311008334d05516d4320">9701cd1f4763311008334d05516d43cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 15:01:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

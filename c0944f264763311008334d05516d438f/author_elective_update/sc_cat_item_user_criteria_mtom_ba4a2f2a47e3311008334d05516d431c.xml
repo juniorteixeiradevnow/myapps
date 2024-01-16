@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Solicitação de material">98aa5f6a47a3311008334d05516d4307</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 19:24:45</sys_created_on>
+        <sys_id>ba4a2f2a47e3311008334d05516d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitação de material.Any User</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_ba4a2f2a47e3311008334d05516d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 19:24:45</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_ba4a2f2a47e3311008334d05516d431c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Solicitação de material">98aa5f6a47a3311008334d05516d4307</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 19:24:45</sys_created_on><sys_id>ba4a2f2a47e3311008334d05516d431c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Solicitação de material.Any User</sys_name><sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package><sys_policy/><sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_ba4a2f2a47e3311008334d05516d431c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 19:24:45</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-471807440</payload_hash>
+        <record_name>Solicitação de material.Any User</record_name>
+        <reverted_from/>
+        <source>84944f264763311008334d05516d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 19:24:45</sys_created_on>
+        <sys_id>4f4a2f2a47e3311008334d05516d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cea88d48b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 19:24:45</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>fe4a2f2af5e33110684acb391ae5b31f</update_guid>
+        <update_guid_history>fe4a2f2af5e33110684acb391ae5b31f:-471807440</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Solicitação de material.Any User">ba6aaf2a47e3311008334d05516d4357</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 19:25:16</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>38cec686466a4a469c8416d1b6a06b19</sys_id>
+        <sys_metadata>ba4a2f2a47e3311008334d05516d431c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitação de material.Any User</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_scope_delete display_value="">17306355dace42ec92787b9413e336c9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_ba4a2f2a47e3311008334d05516d431c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_ba4a2f2a47e3311008334d05516d431c">4f4a2f2a47e3311008334d05516d4320</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 19:25:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

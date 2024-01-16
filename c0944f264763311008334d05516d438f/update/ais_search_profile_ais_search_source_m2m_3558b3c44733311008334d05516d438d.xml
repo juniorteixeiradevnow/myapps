@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="now-pro---aula-06 Search Profile">605873c452333110dc2ec6cadb71a516</profile>
+        <search_source display_value="Tasks - Incidents">13bf8fe1531201107f03ddeeff7b1274</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:17:01</sys_created_on>
+        <sys_id>3558b3c44733311008334d05516d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now-pro---aula-06 Search Profile.Tasks - Incidents</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_3558b3c44733311008334d05516d438d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 12:17:01</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

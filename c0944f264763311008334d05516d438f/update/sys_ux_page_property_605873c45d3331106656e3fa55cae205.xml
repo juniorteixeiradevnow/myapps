@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="Now Pro - Aula 06">ec5873c4343331101e77321b8412ee16</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:16:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>605873c45d3331106656e3fa55cae205</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_ux_page_property_605873c45d3331106656e3fa55cae205</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 12:16:57</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1174267_now_pr_0.ec5873c4343331101e77321b8412ee16.root.ribbonConfigId</unique_name>
+        <value>e85873c4e93331102fcb46b8cb614d04</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=605873c45d3331106656e3fa55cae205"/>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="">7bf7f3440a33311038998851b51ed2bc</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:15:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>fbf7f344973331102e149b1c93c759aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_ux_page_property_fbf7f344973331102e149b1c93c759aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 12:15:32</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1174267_now_pr_0.7bf7f3440a33311038998851b51ed2bc.root.ribbonConfigId</unique_name>
+        <value>77f7f344bc33311006cd98676bd64daa</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sys_ux_page_property_fbf7f344973331102e149b1c93c759aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Ribbon Config ID</description><name>ribbonConfigId</name><page display_value="">7bf7f3440a33311038998851b51ed2bc</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-13 12:15:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>fbf7f344973331102e149b1c93c759aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ribbonConfigId</sys_name><sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package><sys_policy/><sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope><sys_update_name>sys_ux_page_property_fbf7f344973331102e149b1c93c759aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-13 12:15:32</sys_updated_on><type>string</type><unique_name>x_1174267_now_pr_0.7bf7f3440a33311038998851b51ed2bc.root.ribbonConfigId</unique_name><value>77f7f344bc33311006cd98676bd64daa</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1636445322</payload_hash>
+        <record_name>ribbonConfigId</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:16:31</sys_created_on>
+        <sys_id>36383f844733311008334d05516d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d02c093cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 12:16:31</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>f2383f84d73331105ab64b90236d3f7e</update_guid>
+        <update_guid_history>f2383f84d73331105ab64b90236d3f7e:-1636445322</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:16:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>3344dfcaa8a244f987b595aeb9f3ec69</sys_id>
+        <sys_metadata>fbf7f344973331102e149b1c93c759aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_scope_delete display_value="">17306355dace42ec92787b9413e336c9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_fbf7f344973331102e149b1c93c759aa</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_fbf7f344973331102e149b1c93c759aa">36383f844733311008334d05516d437e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 12:16:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1174267_now_pr_0_material">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <group/>
+        <name>Now Pro - Aula 06 - x_1174267_now_pr_0_material</name>
+        <roles/>
+        <source_table>x_1174267_now_pr_0_material</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:15:38</sys_created_on>
+        <sys_id>a508b7444733311008334d05516d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Pro - Aula 06 - x_1174267_now_pr_0_material</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_search_source_a508b7444733311008334d05516d431d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 12:15:38</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=a508b7444733311008334d05516d431d"/>
+</record_update>

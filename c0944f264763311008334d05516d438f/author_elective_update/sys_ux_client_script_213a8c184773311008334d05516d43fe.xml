@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes>8f0ec3492c5f441781f1f44f36351242</includes>
+        <macroponent display_value="Default">ec59ffc44733311008334d05516d43f1</macroponent>
+        <name>filter</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function applyFilter ({ api, event, imports }) {
+	api.setState('parFilters', ({ currentValue }) => {
+		const { payload: { appliedFilters } } = event;
+		return imports['global.mergePARFilters']()(currentValue, appliedFilters);
+	});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 13:35:05</sys_created_on>
+        <sys_id>213a8c184773311008334d05516d43fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>filter</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_ux_client_script_213a8c184773311008334d05516d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 13:39:21</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sys_ux_client_script_213a8c184773311008334d05516d43fe</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes&gt;8f0ec3492c5f441781f1f44f36351242&lt;/includes&gt;&lt;macroponent display_value="Default"&gt;ec59ffc44733311008334d05516d43f1&lt;/macroponent&gt;&lt;name&gt;filter&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function applyFilter ({ api, event, imports }) {
+	api.setState('parFilters', ({ currentValue }) =&gt; {
+		const { payload: { appliedFilters } } = event;
+		return imports['global.mergePARFilters']()(currentValue, appliedFilters);
+	});
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-13 13:35:05&lt;/sys_created_on&gt;&lt;sys_id&gt;213a8c184773311008334d05516d43fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;filter&lt;/sys_name&gt;&lt;sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0"&gt;c0944f264763311008334d05516d438f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Now Pro - Aula 06"&gt;c0944f264763311008334d05516d438f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_213a8c184773311008334d05516d43fe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-13 13:39:21&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2072797962</payload_hash>
+        <record_name>filter</record_name>
+        <reverted_from/>
+        <source>84944f264763311008334d05516d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 13:39:22</sys_created_on>
+        <sys_id>883b48984773311008334d05516d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d030c6b4a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 13:39:22</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>403b4898bb733110568f3b17d684ec69</update_guid>
+        <update_guid_history>403b4898bb733110568f3b17d684ec69:-2072797962,2d3acc18db7331102930b043b1d95000:-484040688</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 19:08:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>41b60a3d39c34d70bade5d8022a8d900</sys_id>
+        <sys_metadata>213a8c184773311008334d05516d43fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>filter</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_scope_delete display_value="">17306355dace42ec92787b9413e336c9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_213a8c184773311008334d05516d43fe</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_213a8c184773311008334d05516d43fe">883b48984773311008334d05516d4369</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 19:08:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

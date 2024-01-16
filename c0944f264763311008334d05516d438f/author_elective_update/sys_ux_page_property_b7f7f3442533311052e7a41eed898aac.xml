@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="">7bf7f3440a33311038998851b51ed2bc</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:15:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b7f7f3442533311052e7a41eed898aac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_ux_page_property_b7f7f3442533311052e7a41eed898aac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 12:15:32</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1174267_now_pr_0.7bf7f3440a33311038998851b51ed2bc.root.chrome_footer</unique_name>
+        <value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{},"enable_footer_bar":false,"footer_bar_options":{}}}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sys_ux_page_property_b7f7f3442533311052e7a41eed898aac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_footer</name><page display_value="">7bf7f3440a33311038998851b51ed2bc</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-13 12:15:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>b7f7f3442533311052e7a41eed898aac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_footer</sys_name><sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package><sys_policy/><sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope><sys_update_name>sys_ux_page_property_b7f7f3442533311052e7a41eed898aac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-13 12:15:32</sys_updated_on><type>json</type><unique_name>x_1174267_now_pr_0.7bf7f3440a33311038998851b51ed2bc.root.chrome_footer</unique_name><value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{},"enable_footer_bar":false,"footer_bar_options":{}}}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1955599099</payload_hash>
+        <record_name>chrome_footer</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:16:31</sys_created_on>
+        <sys_id>a6383f844733311008334d05516d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d02c092c00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 12:16:31</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>66383f84df333110549fb97bfdd30f3c</update_guid>
+        <update_guid_history>66383f84df333110549fb97bfdd30f3c:1955599099</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:16:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>2cad0da6ec804daa888b292b92e8fc24</sys_id>
+        <sys_metadata>b7f7f3442533311052e7a41eed898aac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_scope_delete display_value="">17306355dace42ec92787b9413e336c9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_b7f7f3442533311052e7a41eed898aac</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_b7f7f3442533311052e7a41eed898aac">a6383f844733311008334d05516d433c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 12:16:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

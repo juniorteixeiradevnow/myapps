@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="50cea9cf476b711008334d05516d4306" sys_domain="global" table="x_1174267_now_pr_0_estoque_de_materiais" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-10 00:33:19</sys_created_on>
+            <sys_id>7c8a354f47ab711008334d05516d4354</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_now_pr_0_estoque_de_materiais" sys_domain="global" view="Default view">50cea9cf476b711008334d05516d4306</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-10 00:33:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>solicitante</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-10 00:33:19</sys_created_on>
+            <sys_id>f08a354f47ab711008334d05516d4355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_now_pr_0_estoque_de_materiais" sys_domain="global" view="Default view">50cea9cf476b711008334d05516d4306</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-10 00:33:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>material</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-10 00:33:19</sys_created_on>
+            <sys_id>748a354f47ab711008334d05516d4355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_now_pr_0_estoque_de_materiais" sys_domain="global" view="Default view">50cea9cf476b711008334d05516d4306</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-10 00:33:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantidade</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-10 00:33:19</sys_created_on>
+            <sys_id>f48a354f47ab711008334d05516d4355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_now_pr_0_estoque_de_materiais" sys_domain="global" view="Default view">50cea9cf476b711008334d05516d4306</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-10 00:33:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1174267_now_pr_0_estoque_de_materiais</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-09 23:41:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50cea9cf476b711008334d05516d4306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1174267_now_pr_0_estoque_de_materiais</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+            <sys_update_name>sys_ui_section_50cea9cf476b711008334d05516d4306</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-09 23:41:57</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sys_ui_section_50cea9cf476b711008334d05516d4306</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="50cea9cf476b711008334d05516d4306" sys_domain="global" table="x_1174267_now_pr_0_estoque_de_materiais" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-10 00:33:19</sys_created_on><sys_id>7c8a354f47ab711008334d05516d4354</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1174267_now_pr_0_estoque_de_materiais" sys_domain="global" view="Default view">50cea9cf476b711008334d05516d4306</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-10 00:33:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>solicitante</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-10 00:33:19</sys_created_on><sys_id>f08a354f47ab711008334d05516d4355</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1174267_now_pr_0_estoque_de_materiais" sys_domain="global" view="Default view">50cea9cf476b711008334d05516d4306</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-10 00:33:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>material</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-10 00:33:19</sys_created_on><sys_id>748a354f47ab711008334d05516d4355</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1174267_now_pr_0_estoque_de_materiais" sys_domain="global" view="Default view">50cea9cf476b711008334d05516d4306</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-10 00:33:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>quantidade</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-10 00:33:19</sys_created_on><sys_id>f48a354f47ab711008334d05516d4355</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1174267_now_pr_0_estoque_de_materiais" sys_domain="global" view="Default view">50cea9cf476b711008334d05516d4306</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-10 00:33:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1174267_now_pr_0_estoque_de_materiais</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-09 23:41:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>50cea9cf476b711008334d05516d4306</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1174267_now_pr_0_estoque_de_materiais</sys_name><sys_overrides/><sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package><sys_policy/><sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope><sys_update_name>sys_ui_section_50cea9cf476b711008334d05516d4306</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-09 23:41:57</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>2009568635</payload_hash>
+        <record_name>Estoque de materiais</record_name>
+        <reverted_from/>
+        <source>84944f264763311008334d05516d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 00:33:19</sys_created_on>
+        <sys_id>f48a354f47ab711008334d05516d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf0c9b1d60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 00:33:19</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>bc8a354f48ab71102ef77f6490c42356</update_guid>
+        <update_guid_history>bc8a354f48ab71102ef77f6490c42356:2009568635,a0ce25432cab7110ab300123c1fb00a2:-899633736,58ce2543dbab7110b7c8bfb7da2cbd9c:-620084042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 02:31:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>57f55b3d216d46e4a0ae3b4217386104</sys_id>
+        <sys_metadata>50cea9cf476b711008334d05516d4306</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1174267_now_pr_0_estoque_de_materiais</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_parent display_value="">01bea14347ab711008334d05516d4364</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_scope_delete display_value="">17306355dace42ec92787b9413e336c9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_50cea9cf476b711008334d05516d4306</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_50cea9cf476b711008334d05516d4306">f48a354f47ab711008334d05516d4357</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 02:31:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

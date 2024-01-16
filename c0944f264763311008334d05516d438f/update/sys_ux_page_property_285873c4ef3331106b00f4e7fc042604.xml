@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>L1 Configuration	</description>
+        <name>chrome_toolbar</name>
+        <page display_value="Now Pro - Aula 06">ec5873c4343331101e77321b8412ee16</page>
+        <required_translations>[ {
+  "message" : "Home2",
+  "comment" : ""
+}, {
+  "message" : "List",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:16:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>285873c4ef3331106b00f4e7fc042604</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_ux_page_property_285873c4ef3331106b00f4e7fc042604</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 13:28:58</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1174267_now_pr_0.ec5873c4343331101e77321b8412ee16.root.chrome_toolbar</unique_name>
+        <value>[{"id":"home2","label":{"translatable":true,"message":"Home2"},"order":10,"icon":"home-outline","routeInfo":{"route":"home2"},"group":"top","badge":{},"presence":{},"availability":{}},{"id":"home2-navbar","label":{"translatable":true,"message":"List"},"order":20,"icon":"grid-fill","routeInfo":{"route":"home2-navbar"},"group":"top","badge":{},"presence":{},"availability":{}}]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=285873c4ef3331106b00f4e7fc042604"/>
+</record_update>

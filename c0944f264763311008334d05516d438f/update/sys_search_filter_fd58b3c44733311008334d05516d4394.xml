@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Tasks - Incidents">13bf8fe1531201107f03ddeeff7b1274</ais_search_source>
+        <label>Incident</label>
+        <name>Tasks - Incidents</name>
+        <order>100</order>
+        <search_context_config display_value="Now Pro - Aula 06 AI Search Configuration">605873c431333110c2a7e7d1bf3d6c0d</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 12:17:01</sys_created_on>
+        <sys_id>fd58b3c44733311008334d05516d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tasks - Incidents</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_search_filter_fd58b3c44733311008334d05516d4394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 12:17:01</sys_updated_on>
+    </sys_search_filter>
+</record_update>
