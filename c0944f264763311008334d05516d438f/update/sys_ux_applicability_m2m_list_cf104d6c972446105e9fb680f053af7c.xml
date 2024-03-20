@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for app tratamento-de-material">4b100d6c972446105e9fb680f053affa</applicability>
+        <list display_value="Closed">c7104d6c972446105e9fb680f053af7a</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 18:56:09</sys_created_on>
+        <sys_id>cf104d6c972446105e9fb680f053af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_cf104d6c972446105e9fb680f053af7c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 18:56:09</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
         <includes>8f0ec3492c5f441781f1f44f36351242</includes>
         <macroponent display_value="Default">ec59ffc44733311008334d05516d43f1</macroponent>
         <name>filter</name>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="Tratamento de material">92100d6c73244610d4f2c0daaeb6360c</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 18:56:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>d210c96cc2244610b963a947d4896cfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_ux_page_property_d210c96cc2244610b963a947d4896cfc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 18:56:07</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1174267_now_pr_0.92100d6c73244610d4f2c0daaeb6360c.root.ribbonConfigId</unique_name>
+        <value>1e10c96c8e2446107f96c428cdc2f0fc</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=d210c96cc2244610b963a947d4896cfc"/>
+</record_update>

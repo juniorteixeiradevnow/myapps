@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>atualizarhistoricoestoque</internal_name>
         <label_cache>[{"name":"{{action.paremeter_material}}","label":"action➛paremeter_material","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.materia_}}","label":"action➛materiaç","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.material}}","label":"action➛material","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.solicitante}}","label":"action➛solicitante","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.quantidade}}","label":"action➛quantidade","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[43b4ab1f-072a-4409-9805-08bd905033ae].paremeter_response}}","label":"step➛Script step➛paremeter_response","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
@@ -27,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e3fdfdcf47ab711008334d05516d434a</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>AtualizarHistoricoEstoque</sys_name>
         <sys_overrides/>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
@@ -35,7 +38,7 @@
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_e3fdfdcf47ab711008334d05516d434a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 13:48:03</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:43:27</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -188,18 +191,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d4de398347eb711008334d05516d434f"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>d4de398347eb711008334d05516d434f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 00:52:08</sys_created_on>
-        <sys_id>20de398347eb711008334d05516d4367</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 00:52:08</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>parameter_material</field>
         <id>d4de398347eb711008334d05516d434f</id>
         <sys_created_by>admin</sys_created_by>
@@ -234,18 +225,6 @@
         <sys_updated_on>2024-01-10 00:52:08</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_d4de398347eb711008334d05516d434f</table>
         <value>{{action.solicitante}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>d4de398347eb711008334d05516d434f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 00:52:08</sys_created_on>
-        <sys_id>e4de398347eb711008334d05516d4367</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 00:52:08</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d4de398347eb711008334d05516d434f^id=d4de398347eb711008334d05516d434f"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=d4de398347eb711008334d05516d434f"/>
@@ -599,11 +578,11 @@
         <sys_created_on>2024-01-10 01:11:19</sys_created_on>
         <sys_id>d93306c747eb711008334d05516d4331</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>paremeter_response</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d4de398347eb711008334d05516d434f_paremeter_response_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 01:11:19</sys_updated_on>
         <url/>
@@ -1150,11 +1129,11 @@
         <sys_created_on>2024-01-10 00:52:08</sys_created_on>
         <sys_id>10de398347eb711008334d05516d434d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>quantidade</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e3fdfdcf47ab711008334d05516d434a_quantidade_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 00:52:08</sys_updated_on>
         <url/>
@@ -1173,11 +1152,11 @@
         <sys_created_on>2024-01-10 00:52:08</sys_created_on>
         <sys_id>5cdeb50347eb711008334d05516d43cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>material</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e3fdfdcf47ab711008334d05516d434a_material_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 00:52:08</sys_updated_on>
         <url/>
@@ -1196,11 +1175,11 @@
         <sys_created_on>2024-01-10 00:52:08</sys_created_on>
         <sys_id>90de398347eb711008334d05516d4349</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>solicitante</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e3fdfdcf47ab711008334d05516d434a_solicitante_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 00:52:08</sys_updated_on>
         <url/>
@@ -1221,11 +1200,11 @@
         <sys_created_on>2024-01-10 00:54:14</sys_created_on>
         <sys_id>5f4f71c347eb711008334d05516d4346</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e3fdfdcf47ab711008334d05516d434a___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 00:54:14</sys_updated_on>
         <url/>
@@ -1244,11 +1223,11 @@
         <sys_created_on>2024-01-10 00:52:08</sys_created_on>
         <sys_id>acde398347eb711008334d05516d436f</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>response</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e3fdfdcf47ab711008334d05516d434a_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 01:11:19</sys_updated_on>
         <url/>
@@ -1267,11 +1246,11 @@
         <sys_created_on>2024-01-10 00:54:14</sys_created_on>
         <sys_id>d74f71c347eb711008334d05516d434c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e3fdfdcf47ab711008334d05516d434a___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 00:54:14</sys_updated_on>
         <url/>
@@ -1300,11 +1279,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>atualizarhistoricoestoque</internal_name>
         <label_cache>[{"name":"{{action.paremeter_material}}","label":"action➛paremeter_material","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.materia_}}","label":"action➛materiaç","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.material}}","label":"action➛material","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.solicitante}}","label":"action➛solicitante","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.quantidade}}","label":"action➛quantidade","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[43b4ab1f-072a-4409-9805-08bd905033ae].paremeter_response}}","label":"step➛Script step➛paremeter_response","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
@@ -1480,18 +1462,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d093cac747eb711008334d05516d43d8"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>d093cac747eb711008334d05516d43d8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 01:12:52</sys_created_on>
-        <sys_id>d893cac747eb711008334d05516d43ed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 01:12:52</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>parameter_material</field>
         <id>d093cac747eb711008334d05516d43d8</id>
         <sys_created_by>admin</sys_created_by>
@@ -1526,18 +1496,6 @@
         <sys_updated_on>2024-01-10 01:12:52</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_d093cac747eb711008334d05516d43d8</table>
         <value>{{action.solicitante}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>d093cac747eb711008334d05516d43d8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 01:12:52</sys_created_on>
-        <sys_id>9c93cac747eb711008334d05516d43ed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 01:12:52</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d093cac747eb711008334d05516d43d8^id=d093cac747eb711008334d05516d43d8"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=d093cac747eb711008334d05516d43d8"/>
@@ -1891,11 +1849,11 @@
         <sys_created_on>2024-01-10 01:12:52</sys_created_on>
         <sys_id>9c93cac747eb711008334d05516d43e9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>paremeter_response</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d093cac747eb711008334d05516d43d8_paremeter_response_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 01:12:52</sys_updated_on>
         <url/>
@@ -2442,11 +2400,11 @@
         <sys_created_on>2024-01-10 01:12:52</sys_created_on>
         <sys_id>4093cac747eb711008334d05516d43ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>material</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0c93cac747eb711008334d05516d43ba_material_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 01:12:52</sys_updated_on>
         <url/>
@@ -2465,11 +2423,11 @@
         <sys_created_on>2024-01-10 01:12:52</sys_created_on>
         <sys_id>4c93cac747eb711008334d05516d43d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>quantidade</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0c93cac747eb711008334d05516d43ba_quantidade_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 01:12:52</sys_updated_on>
         <url/>
@@ -2488,11 +2446,11 @@
         <sys_created_on>2024-01-10 01:12:52</sys_created_on>
         <sys_id>cc93cac747eb711008334d05516d43d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>solicitante</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0c93cac747eb711008334d05516d43ba_solicitante_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 01:12:52</sys_updated_on>
         <url/>
@@ -2513,11 +2471,11 @@
         <sys_created_on>2024-01-10 01:12:53</sys_created_on>
         <sys_id>58930ec747eb711008334d05516d4324</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0c93cac747eb711008334d05516d43ba___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 01:12:53</sys_updated_on>
         <url/>
@@ -2536,11 +2494,11 @@
         <sys_created_on>2024-01-10 01:12:53</sys_created_on>
         <sys_id>9893cac747eb711008334d05516d43f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0c93cac747eb711008334d05516d43ba_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 01:12:53</sys_updated_on>
         <url/>
@@ -2559,11 +2517,11 @@
         <sys_created_on>2024-01-10 01:12:53</sys_created_on>
         <sys_id>9893cac747eb711008334d05516d43f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0c93cac747eb711008334d05516d43ba___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 01:12:53</sys_updated_on>
         <url/>
@@ -2573,6 +2531,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>e3fdfdcf47ab711008334d05516d434a</sys_id>
         <latest_snapshot>0c93cac747eb711008334d05516d43ba</latest_snapshot>
-        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
+        <compiler_build>glide-washingtondc-12-20-2023__patch0-01-17-2024_01-25-2024_1625.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

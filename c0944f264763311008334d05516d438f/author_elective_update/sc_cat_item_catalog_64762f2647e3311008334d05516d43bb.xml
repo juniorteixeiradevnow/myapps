@@ -41,7 +41,7 @@
         <update_guid_history>e0762f26b7e331105f00dd457bda73be:624745201</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Solicitação de material">8796ef2647e3311008334d05516d435a</sys_audit_delete>
+        <sys_audit_delete display_value="">8796ef2647e3311008334d05516d435a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-08 19:08:38</sys_created_on>

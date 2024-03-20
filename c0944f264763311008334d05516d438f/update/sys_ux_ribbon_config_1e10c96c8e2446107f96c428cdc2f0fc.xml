@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_ribbon_config">
+    <sys_ux_ribbon_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Tratamento de material Ribbon Config</description>
+        <name>Tratamento de material Ribbon Config</name>
+        <sys_class_name>sys_ux_ribbon_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 18:56:07</sys_created_on>
+        <sys_id>1e10c96c8e2446107f96c428cdc2f0fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tratamento de material Ribbon Config</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_ux_ribbon_config_1e10c96c8e2446107f96c428cdc2f0fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 18:56:07</sys_updated_on>
+    </sys_ux_ribbon_config>
+</record_update>

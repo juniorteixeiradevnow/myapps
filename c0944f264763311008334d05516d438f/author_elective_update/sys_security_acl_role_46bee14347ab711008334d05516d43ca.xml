@@ -42,7 +42,7 @@
         <update_guid_history>cebee143feab7110a75e460288b170cb:-33832489</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1174267_now_pr_0_estoque_de_materiais.x_1174267_now_pr_0.admin">34a592cb472f711008334d05516d4336</sys_audit_delete>
+        <sys_audit_delete display_value="">34a592cb472f711008334d05516d4336</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 02:31:49</sys_created_on>

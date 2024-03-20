@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>enviarmsgzap</internal_name>
         <label_cache>[{"name":"{{action.whatsappnumber}}","label":"action➛whatsappnumber","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.towhatsappnumber}}","label":"action➛towhatsappnumber","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.message}}","label":"action➛message","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.from}}","label":"action➛From","type":"action","ref":"","reference_display":"","base_type":"phone_number_e164","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Phone Number (E164)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"phone_number_e164","uiUniqueId":"595948b0-155b-4e22-b72f-bc894ed5353c"}},{"name":"{{action.to}}","label":"action➛To","type":"action","ref":"","reference_display":"","base_type":"phone_number_e164","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Phone Number (E164)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"phone_number_e164","uiUniqueId":"1980c4b5-cd0d-4a95-90c8-010f7db0b626"}},{"name":"{{action.body}}","label":"action➛body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.prefix}}","label":"action➛prefix","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.prefix_whatsapp}}","label":"action➛prefix_whatsapp","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"73576244-6501-40cd-a760-b423572ba79d"}},{"name":"{{action.body4}}","label":"action➛Body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiUniqueId":"061f146e-4d4c-45b3-b2a5-100e091df515"}},{"name":"{{step[dd6aba62-770b-4276-af88-ce496f3db23d].prefix}}","label":"step➛Remover special chars➛prefix","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dd6aba62-770b-4276-af88-ce496f3db23d].__step_status__.code}}","label":"step➛Remover special chars➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[afe4cc60-cd50-40b9-a1f0-9e223b11d4f0].__step_status__}}","label":"step➛Special Chars remove➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[afe4cc60-cd50-40b9-a1f0-9e223b11d4f0].__step_status__.code}}","label":"step➛Special Chars remove➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[afe4cc60-cd50-40b9-a1f0-9e223b11d4f0].to}}","label":"step➛Special Chars remove➛To","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"84f66cdb-d32a-4f79-8154-5d84fe30d68a"}},{"name":"{{step[afe4cc60-cd50-40b9-a1f0-9e223b11d4f0].from}}","label":"step➛Special Chars remove➛From","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"4fa43a79-f016-4646-98cf-1a6ae53f57f7"}},{"name":"{{step[47dbf881-9b86-4a40-aeca-3058a3fe75fe].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[47dbf881-9b86-4a40-aeca-3058a3fe75fe].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[fe29f471-9328-47a7-8c23-864788b2c5cc].status}}","label":"step➛Error Handling➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fe29f471-9328-47a7-8c23-864788b2c5cc].response}}","label":"step➛Error Handling➛response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[afe4cc60-cd50-40b9-a1f0-9e223b11d4f0].prefix}}","label":"step➛Special Chars remove➛prefix","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"a8d3c537-64d2-445a-83d2-0801c2790535"}}]</label_cache>
@@ -26,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>20b1785f4723311008334d05516d43a4</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>EnviarMsgZap</sys_name>
         <sys_overrides/>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
@@ -34,7 +37,7 @@
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_20b1785f4723311008334d05516d43a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:42:48</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:43:25</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -159,18 +162,6 @@ outputs.to = inputs.to;&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3ae60dd347a3311008334d05516d4368"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>3ae60dd347a3311008334d05516d4368</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 15:26:24</sys_created_on>
-        <sys_id>8fe60dd347a3311008334d05516d4393</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 15:26:24</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>from</field>
         <id>3ae60dd347a3311008334d05516d4368</id>
         <sys_created_by>admin</sys_created_by>
@@ -193,18 +184,6 @@ outputs.to = inputs.to;&#13;
         <sys_updated_on>2024-01-10 15:26:24</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_3ae60dd347a3311008334d05516d4368</table>
         <value>{{action.prefix_whatsapp}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>3ae60dd347a3311008334d05516d4368</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 15:26:24</sys_created_on>
-        <sys_id>43e60dd347a3311008334d05516d4394</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 15:26:24</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>to</field>
@@ -736,11 +715,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 15:39:54</sys_created_on>
         <sys_id>680ac99747a3311008334d05516d43bb</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>From</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3ae60dd347a3311008334d05516d4368_from_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 16:53:49</sys_updated_on>
         <url/>
@@ -759,11 +738,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 17:09:14</sys_created_on>
         <sys_id>d57e959b47e3311008334d05516d43ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>prefix</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3ae60dd347a3311008334d05516d4368_prefix_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 17:09:14</sys_updated_on>
         <url/>
@@ -782,11 +761,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 15:39:53</sys_created_on>
         <sys_id>e00ac99747a3311008334d05516d43b8</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>To</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3ae60dd347a3311008334d05516d4368_to_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 16:53:49</sys_updated_on>
         <url/>
@@ -1398,11 +1377,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 15:26:24</sys_created_on>
         <sys_id>cfe60dd347a3311008334d05516d43bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_4be60dd347a3311008334d05516d4397_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 15:26:24</sys_updated_on>
         <url/>
@@ -1946,11 +1925,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 15:26:24</sys_created_on>
         <sys_id>76e60dd347a3311008334d05516d4365</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Body</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_20b1785f4723311008334d05516d43a4_body4_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 15:26:24</sys_updated_on>
         <url/>
@@ -1969,11 +1948,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 15:26:23</sys_created_on>
         <sys_id>b6e60dd347a3311008334d05516d4356</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>From</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_20b1785f4723311008334d05516d43a4_from_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 15:26:23</sys_updated_on>
         <url/>
@@ -1992,11 +1971,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 15:26:24</sys_created_on>
         <sys_id>f6e60dd347a3311008334d05516d4361</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>prefix_whatsapp</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_20b1785f4723311008334d05516d43a4_prefix_whatsapp_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 15:26:24</sys_updated_on>
         <url/>
@@ -2015,11 +1994,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 15:26:24</sys_created_on>
         <sys_id>fee60dd347a3311008334d05516d435b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>To</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_20b1785f4723311008334d05516d43a4_to_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 15:26:24</sys_updated_on>
         <url/>
@@ -2040,11 +2019,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 15:39:54</sys_created_on>
         <sys_id>700a0d9747a3311008334d05516d4312</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_20b1785f4723311008334d05516d43a4___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 15:39:54</sys_updated_on>
         <url/>
@@ -2063,11 +2042,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 15:39:54</sys_created_on>
         <sys_id>f00a0d9747a3311008334d05516d430c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_20b1785f4723311008334d05516d43a4___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 15:39:54</sys_updated_on>
         <url/>
@@ -2096,11 +2075,14 @@ outputs.to = inputs.to;&#13;
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>enviarmsgzap</internal_name>
         <label_cache>[{"name":"{{action.whatsappnumber}}","label":"action➛whatsappnumber","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.towhatsappnumber}}","label":"action➛towhatsappnumber","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.message}}","label":"action➛message","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.from}}","label":"action➛From","type":"action","ref":"","reference_display":"","base_type":"phone_number_e164","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Phone Number (E164)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"phone_number_e164","uiUniqueId":"595948b0-155b-4e22-b72f-bc894ed5353c"}},{"name":"{{action.to}}","label":"action➛To","type":"action","ref":"","reference_display":"","base_type":"phone_number_e164","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Phone Number (E164)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"phone_number_e164","uiUniqueId":"1980c4b5-cd0d-4a95-90c8-010f7db0b626"}},{"name":"{{action.body}}","label":"action➛body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.prefix}}","label":"action➛prefix","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.prefix_whatsapp}}","label":"action➛prefix_whatsapp","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"73576244-6501-40cd-a760-b423572ba79d"}},{"name":"{{action.body4}}","label":"action➛Body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiUniqueId":"061f146e-4d4c-45b3-b2a5-100e091df515"}},{"name":"{{step[dd6aba62-770b-4276-af88-ce496f3db23d].prefix}}","label":"step➛Remover special chars➛prefix","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dd6aba62-770b-4276-af88-ce496f3db23d].__step_status__.code}}","label":"step➛Remover special chars➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[afe4cc60-cd50-40b9-a1f0-9e223b11d4f0].__step_status__}}","label":"step➛Special Chars remove➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[afe4cc60-cd50-40b9-a1f0-9e223b11d4f0].__step_status__.code}}","label":"step➛Special Chars remove➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[afe4cc60-cd50-40b9-a1f0-9e223b11d4f0].to}}","label":"step➛Special Chars remove➛To","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"84f66cdb-d32a-4f79-8154-5d84fe30d68a"}},{"name":"{{step[afe4cc60-cd50-40b9-a1f0-9e223b11d4f0].from}}","label":"step➛Special Chars remove➛From","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"4fa43a79-f016-4646-98cf-1a6ae53f57f7"}},{"name":"{{step[47dbf881-9b86-4a40-aeca-3058a3fe75fe].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[47dbf881-9b86-4a40-aeca-3058a3fe75fe].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[fe29f471-9328-47a7-8c23-864788b2c5cc].status}}","label":"step➛Error Handling➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fe29f471-9328-47a7-8c23-864788b2c5cc].response}}","label":"step➛Error Handling➛response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[afe4cc60-cd50-40b9-a1f0-9e223b11d4f0].prefix}}","label":"step➛Special Chars remove➛prefix","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"a8d3c537-64d2-445a-83d2-0801c2790535"}}]</label_cache>
         <master>true</master>
@@ -2764,11 +2746,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 17:49:28</sys_created_on>
         <sys_id>fea7a5d34727311008334d05516d43b1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_76a7a5d34727311008334d05516d43a7_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 17:49:28</sys_updated_on>
         <url/>
@@ -2863,18 +2845,6 @@ outputs.to = inputs.to;&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=aaa7a5d34727311008334d05516d4385"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>aaa7a5d34727311008334d05516d4385</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 17:49:28</sys_created_on>
-        <sys_id>b6a7a5d34727311008334d05516d43a2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 17:49:28</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>From</field>
         <id>aaa7a5d34727311008334d05516d4385</id>
         <sys_created_by>admin</sys_created_by>
@@ -2897,18 +2867,6 @@ outputs.to = inputs.to;&#13;
         <sys_updated_on>2024-01-10 17:49:28</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_aaa7a5d34727311008334d05516d4385</table>
         <value>{{action.prefix_whatsapp}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>aaa7a5d34727311008334d05516d4385</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 17:49:28</sys_created_on>
-        <sys_id>7ea7a5d34727311008334d05516d43a2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 17:49:28</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>To</field>
@@ -3440,11 +3398,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 17:49:28</sys_created_on>
         <sys_id>22a7a5d34727311008334d05516d439b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>From</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_aaa7a5d34727311008334d05516d4385_from_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 17:49:28</sys_updated_on>
         <url/>
@@ -3463,11 +3421,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 17:49:28</sys_created_on>
         <sys_id>aaa7a5d34727311008334d05516d4397</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>To</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_aaa7a5d34727311008334d05516d4385_to_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 17:49:28</sys_updated_on>
         <url/>
@@ -3486,11 +3444,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 17:49:28</sys_created_on>
         <sys_id>b6a7a5d34727311008334d05516d439e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>prefix</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_aaa7a5d34727311008334d05516d4385_prefix_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 17:49:28</sys_updated_on>
         <url/>
@@ -4034,11 +3992,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 17:49:28</sys_created_on>
         <sys_id>62a7a5d34727311008334d05516d4376</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>From</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6aa7a5d34727311008334d05516d436e_from_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 17:49:28</sys_updated_on>
         <url/>
@@ -4057,11 +4015,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 17:49:28</sys_created_on>
         <sys_id>6ea7a5d34727311008334d05516d4379</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>To</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6aa7a5d34727311008334d05516d436e_to_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 17:49:28</sys_updated_on>
         <url/>
@@ -4080,11 +4038,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 17:49:28</sys_created_on>
         <sys_id>a2a7a5d34727311008334d05516d437f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>prefix_whatsapp</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6aa7a5d34727311008334d05516d436e_prefix_whatsapp_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 17:49:28</sys_updated_on>
         <url/>
@@ -4103,11 +4061,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 17:49:28</sys_created_on>
         <sys_id>aea7a5d34727311008334d05516d4382</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Body</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6aa7a5d34727311008334d05516d436e_body4_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 17:49:28</sys_updated_on>
         <url/>
@@ -4128,11 +4086,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 17:49:29</sys_created_on>
         <sys_id>72a7a5d34727311008334d05516d43ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6aa7a5d34727311008334d05516d436e___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 17:49:29</sys_updated_on>
         <url/>
@@ -4151,11 +4109,11 @@ outputs.to = inputs.to;&#13;
         <sys_created_on>2024-01-10 17:49:29</sys_created_on>
         <sys_id>baa7a5d34727311008334d05516d43f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6aa7a5d34727311008334d05516d436e___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-10 17:49:29</sys_updated_on>
         <url/>

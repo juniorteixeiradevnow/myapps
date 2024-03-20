@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Now Pro - Aula 06 Config">bff7f344dc333110dc4f6556778edcbc</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Record Default">b3f7f344d63331105509f3850a4e27ad</macroponent>
         <macroponent_config>{

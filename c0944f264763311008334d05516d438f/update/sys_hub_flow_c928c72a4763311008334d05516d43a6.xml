@@ -4,11 +4,15 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>Teste de flow na aula 06 now pro</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>now_pro_teste_flow_aula_06</internal_name>
         <label_cache>[{"name":"Created_1.current.quantidade","label":"Trigger - Record Created➛material Record➛Quantidade","reference":"","reference_display":"Quantidade","type":"integer","base_type":"integer","parent_table_name":"x_1174267_now_pr_0_material","column_name":"quantidade"},{"name":"Created_1.current.solicitante.sys_id","label":"Trigger - Record Created➛material Record➛Solicitante➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.solicitante","label":"Trigger - Record Created➛material Record➛Solicitante","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1174267_now_pr_0_material","column_name":"solicitante"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛material Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1174267_now_pr_0_material","column_name":"sys_id"},{"name":"53a3026e-18ee-4cac-afd1-b97964111f33.quantidade","label":"1 - Get Catalog Variables➛quantidade","reference":"","reference_display":"quantidade","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"53a3026e-18ee-4cac-afd1-b97964111f33.materiais","label":"1 - Get Catalog Variables➛materiais","reference":"","reference_display":"materiais","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Detergente","value":"1","order":100.0},{"label":"Pano de chão","value":"2","order":100.0},{"label":"Desinfetante","value":"3","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"Created_1.current","label":"Trigger - Record Created➛material Record","reference":"x_1174267_now_pr_0_material","reference_display":"material","type":"reference","base_type":"reference","attributes":{}},{"name":"53a3026e-18ee-4cac-afd1-b97964111f33.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"53a3026e-18ee-4cac-afd1-b97964111f33.solicitante.name","label":"1➛solicitante➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"{{static.220f8e71c61122840197e57c33464f70}}","label":"Catalog Request Approvers \u003e $1000","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"b1539ff8-d6bc-4bae-bfae-347f73549041.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c10c708-4987-451a-8d87-10f86bac1e28.record","label":"3 - Update Record➛material Record","reference":"x_1174267_now_pr_0_material","reference_display":"material Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5fa6c8d-06bf-41b1-8af0-a5e18b2699df.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>044d998f472b711008334d05516d435f</master_snapshot>
@@ -29,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c928c72a4763311008334d05516d43a6</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Now pro teste flow aula 06</sys_name>
         <sys_overrides/>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
@@ -37,7 +41,7 @@
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_update_name>sys_hub_flow_c928c72a4763311008334d05516d43a6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:43:27</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c928c72a4763311008334d05516d43a6"/>
@@ -70,15 +74,15 @@
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
         <identifier>c928c72a4763311008334d05516d43a6</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 01:18:36</sys_created_on>
         <sys_id>d4e4ca4b47eb711008334d05516d435d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 01:18:36</sys_updated_on>
+        <sys_updated_on>2024-02-20 19:07:49</sys_updated_on>
         <trigger display_value="">414d1d8f472b711008334d05516d430d</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c928c72a4763311008334d05516d43a6^sys_idNOT INd4e4ca4b47eb711008334d05516d435d"/>
@@ -228,6 +232,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=129a236a47e3311008334d05516d438b"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -311,6 +316,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9e9a236a47e3311008334d05516d4383"/>
     <sys_hub_flow_output action="delete_multiple" query="model=c928c72a4763311008334d05516d43a6"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c928c72a4763311008334d05516d43a6"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=c928c72a4763311008334d05516d43a6^sys_idNOT IN47e8558b472b711008334d05516d43ac,57e8558b472b711008334d05516d43b4,83e8558b472b711008334d05516d4390,83e8558b472b711008334d05516d4397,87e8558b472b711008334d05516d4386,930d158f472b711008334d05516d43ce,a84c194f472b711008334d05516d430b,a84c194f472b711008334d05516d4313,ab0d158f472b711008334d05516d43d4,abc4864b47eb711008334d05516d4362,ac4c194f472b711008334d05516d4304,cbe8558b472b711008334d05516d439e"/>
@@ -319,19 +325,21 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Atualiza o grupo e coloca um work notes</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:06:34</sys_created_on>
         <sys_id>47e8558b472b711008334d05516d43ac</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>670dcc40-b00e-4644-9f2a-c9731018aabe</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=47e8558b472b711008334d05516d43ac"/>
@@ -407,19 +415,21 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Envia um email que foi aprovada a solicitação</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:06:34</sys_created_on>
         <sys_id>57e8558b472b711008334d05516d43b4</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>73f3b3bc-486c-4204-b45c-87d763834e75</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=57e8558b472b711008334d05516d43b4"/>
@@ -495,19 +505,21 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Enviar um email de solicitação recebida</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:06:34</sys_created_on>
         <sys_id>83e8558b472b711008334d05516d4390</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>a5fa6c8d-06bf-41b1-8af0-a5e18b2699df</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=83e8558b472b711008334d05516d4390"/>
@@ -583,19 +595,21 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Atualizar o grupo atribuido, e o estado</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:06:34</sys_created_on>
         <sys_id>83e8558b472b711008334d05516d4397</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>4c10c708-4987-451a-8d87-10f86bac1e28</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=83e8558b472b711008334d05516d4397"/>
@@ -671,19 +685,21 @@
         <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Pegar as variaveis do item de catalogo</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:06:34</sys_created_on>
         <sys_id>87e8558b472b711008334d05516d4386</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>53a3026e-18ee-4cac-afd1-b97964111f33</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=87e8558b472b711008334d05516d4386"/>
@@ -759,19 +775,21 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Avisa que foi recusado a compra</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>13</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:24:36</sys_created_on>
         <sys_id>930d158f472b711008334d05516d43ce</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>29faa425-2748-415a-a6c4-ee03dc2527d1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=930d158f472b711008334d05516d43ce"/>
@@ -847,19 +865,21 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Worknote para dizer que o material foi criado</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>9</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:21:09</sys_created_on>
         <sys_id>a84c194f472b711008334d05516d430b</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>965f35a1-5377-436d-b137-eccb865cdc14</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a84c194f472b711008334d05516d430b"/>
@@ -935,19 +955,21 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Email para dizer que foi comprado o material</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:21:09</sys_created_on>
         <sys_id>a84c194f472b711008334d05516d4313</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>df49ea20-f3ef-4c08-8a7c-a25ef7b35172</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a84c194f472b711008334d05516d4313"/>
@@ -1023,19 +1045,21 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Muda o estado para closed complete</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>14</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:24:37</sys_created_on>
         <sys_id>ab0d158f472b711008334d05516d43d4</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>bb33362d-4feb-447b-b9b5-90558b7be9dc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ab0d158f472b711008334d05516d43d4"/>
@@ -1111,19 +1135,21 @@
         <action_inputs/>
         <action_type display_value="AtualizarHistoricoEstoque">0c93cac747eb711008334d05516d43ba</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Atualizar historico do estoque</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>11</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 01:18:18</sys_created_on>
         <sys_id>abc4864b47eb711008334d05516d4362</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>24ce57e3-3e62-4684-b8f1-cb7d34e164d8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=abc4864b47eb711008334d05516d4362"/>
@@ -1185,19 +1211,21 @@
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Espera o operador atualizar o status para closed complete</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:21:08</sys_created_on>
         <sys_id>ac4c194f472b711008334d05516d4304</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>7ad4f145-0d07-4f49-8116-b305f8e5d252</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ac4c194f472b711008334d05516d4304"/>
@@ -1273,19 +1301,21 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Esperar aprovação pelo grupo</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:06:34</sys_created_on>
         <sys_id>cbe8558b472b711008334d05516d439e</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:15:27</sys_updated_on>
+        <sys_updated_on>2024-02-20 18:59:04</sys_updated_on>
         <ui_id>b1539ff8-d6bc-4bae-bfae-347f73549041</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cbe8558b472b711008334d05516d439e"/>
@@ -1423,6 +1453,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c928c72a4763311008334d05516d43a6"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=c928c72a4763311008334d05516d43a6^sys_idNOT IN43e8558b472b711008334d05516d43a4,b84c194f472b711008334d05516d4316"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">03e8558b472b711008334d05516d43a3</block>
         <comment/>
         <connected_to/>
@@ -1433,6 +1464,7 @@
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1495,6 +1527,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=43e8558b472b711008334d05516d43a4"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=43e8558b472b711008334d05516d43a4"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">344c194f472b711008334d05516d4316</block>
         <comment/>
         <connected_to/>
@@ -1505,6 +1538,7 @@
         <flow display_value="Now pro teste flow aula 06">c928c72a4763311008334d05516d43a6</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>12</order>
@@ -1610,11 +1644,11 @@
         <sys_created_on>2024-01-08 19:26:04</sys_created_on>
         <sys_id>1e9a236a47e3311008334d05516d4389</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c928c72a4763311008334d05516d43a6_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 19:26:04</sys_updated_on>
         <url/>
@@ -1633,11 +1667,11 @@
         <sys_created_on>2024-01-08 19:26:04</sys_created_on>
         <sys_id>269a236a47e3311008334d05516d438d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c928c72a4763311008334d05516d43a6_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 19:26:04</sys_updated_on>
         <url/>
@@ -1651,11 +1685,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name/>
         <description>Teste de flow na aula 06 now pro</description>
+        <flow_priority/>
         <internal_name>now_pro_teste_flow_aula_06</internal_name>
         <label_cache>[{"name":"Created_1.current.quantidade","label":"Trigger - Record Created➛material Record➛Quantidade","reference":"","reference_display":"Quantidade","type":"integer","base_type":"integer","parent_table_name":"x_1174267_now_pr_0_material","column_name":"quantidade"},{"name":"Created_1.current.solicitante.sys_id","label":"Trigger - Record Created➛material Record➛Solicitante➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.solicitante","label":"Trigger - Record Created➛material Record➛Solicitante","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1174267_now_pr_0_material","column_name":"solicitante"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛material Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1174267_now_pr_0_material","column_name":"sys_id"},{"name":"53a3026e-18ee-4cac-afd1-b97964111f33.quantidade","label":"1 - Get Catalog Variables➛quantidade","reference":"","reference_display":"quantidade","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"53a3026e-18ee-4cac-afd1-b97964111f33.materiais","label":"1 - Get Catalog Variables➛materiais","reference":"","reference_display":"materiais","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Detergente","value":"1","order":100.0},{"label":"Pano de chão","value":"2","order":100.0},{"label":"Desinfetante","value":"3","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"Created_1.current","label":"Trigger - Record Created➛material Record","reference":"x_1174267_now_pr_0_material","reference_display":"material","type":"reference","base_type":"reference","attributes":{}},{"name":"53a3026e-18ee-4cac-afd1-b97964111f33.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"53a3026e-18ee-4cac-afd1-b97964111f33.solicitante.name","label":"1➛solicitante➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"{{static.220f8e71c61122840197e57c33464f70}}","label":"Catalog Request Approvers \u003e $1000","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"b1539ff8-d6bc-4bae-bfae-347f73549041.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c10c708-4987-451a-8d87-10f86bac1e28.record","label":"3 - Update Record➛material Record","reference":"x_1174267_now_pr_0_material","reference_display":"material","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5fa6c8d-06bf-41b1-8af0-a5e18b2699df.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
@@ -1833,6 +1870,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0c4d998f472b711008334d05516d4361"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1916,6 +1954,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dc4d998f472b711008334d05516d43b7"/>
     <sys_hub_flow_output action="delete_multiple" query="model=044d998f472b711008334d05516d435f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=044d998f472b711008334d05516d435f"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=044d998f472b711008334d05516d435f^sys_idNOT IN104dd98f472b711008334d05516d4311,144d998f472b711008334d05516d43ff,204dd98f472b711008334d05516d4339,284dd98f472b711008334d05516d432a,2c4dd98f472b711008334d05516d4341,544dd98f472b711008334d05516d4318,6c4dd98f472b711008334d05516d4354,9bd48a4b47eb711008334d05516d431b,9c4d998f472b711008334d05516d43db,ac4dd98f472b711008334d05516d4330,d44dd98f472b711008334d05516d4320,d84dd98f472b711008334d05516d4307"/>
@@ -1924,9 +1963,11 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
         <comment>Esperar aprovação pelo grupo</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2076,9 +2117,11 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
         <comment>Enviar um email de solicitação recebida</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2164,9 +2207,11 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
         <comment>Email para dizer que foi comprado o material</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2252,9 +2297,11 @@
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
         <comment>Espera o operador atualizar o status para closed complete</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2340,9 +2387,11 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
         <comment>Avisa que foi recusado a compra</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>13</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2428,9 +2477,11 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment>Atualiza o grupo e coloca um work notes</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2516,9 +2567,11 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment>Muda o estado para closed complete</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>14</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2604,9 +2657,11 @@
         <action_inputs/>
         <action_type display_value="AtualizarHistoricoEstoque">0c93cac747eb711008334d05516d43ba</action_type>
         <action_type_parent display_value="AtualizarHistoricoEstoque">e3fdfdcf47ab711008334d05516d434a</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>11</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2678,9 +2733,11 @@
         <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
         <comment>Pegar as variaveis do item de catalogo</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2766,9 +2823,11 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment>Worknote para dizer que o material foi criado</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>9</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2854,9 +2913,11 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
         <comment>Envia um email que foi aprovada a solicitação</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>dd0745b0-2a40-488f-8fac-566b775b577e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2942,9 +3003,11 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment>Atualizar o grupo atribuido, e o estado</comment>
         <display_text/>
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3028,6 +3091,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=044d998f472b711008334d05516d435f"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=044d998f472b711008334d05516d435f^sys_idNOT IN144d998f472b711008334d05516d43c3,d44d998f472b711008334d05516d43c7"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">03e8558b472b711008334d05516d43a3</block>
         <comment/>
         <connected_to/>
@@ -3038,6 +3102,7 @@
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3100,6 +3165,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=144d998f472b711008334d05516d43c3"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=144d998f472b711008334d05516d43c3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">344c194f472b711008334d05516d4316</block>
         <comment/>
         <connected_to/>
@@ -3110,6 +3176,7 @@
         <flow display_value="Now pro teste flow aula 06">044d998f472b711008334d05516d435f</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>12</order>
@@ -3215,11 +3282,11 @@
         <sys_created_on>2024-01-09 22:25:29</sys_created_on>
         <sys_id>184d998f472b711008334d05516d43bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_044d998f472b711008334d05516d435f_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-09 22:25:29</sys_updated_on>
         <url/>
@@ -3238,11 +3305,11 @@
         <sys_created_on>2024-01-09 22:25:29</sys_created_on>
         <sys_id>904d998f472b711008334d05516d43b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_044d998f472b711008334d05516d435f_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-09 22:25:29</sys_updated_on>
         <url/>
@@ -3254,14 +3321,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>c928c72a4763311008334d05516d43a6</sys_id>
         <latest_snapshot>044d998f472b711008334d05516d435f</latest_snapshot>
-        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
+        <compiler_build>glide-washingtondc-12-20-2023__patch0-01-17-2024_01-25-2024_1625.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c928c72a4763311008334d05516d43a6^sys_idNOT IN814d1d8f472b711008334d05516d430f"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"814d1d8f472b711008334d05516d430f","name":"plan","plan_signature":null}}</plan>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"814d1d8f472b711008334d05516d430f","name":"plan","plan_signature":null}}</plan>
         <plan_id>c928c72a4763311008334d05516d43a6</plan_id>
-        <snapshot>b6e4d28b472f711008334d05516d43df</snapshot>
+        <snapshot>b9c081ec972446105e9fb680f053af34</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 22:25:32</sys_created_on>
         <sys_domain>global</sys_domain>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="53af08784740021008334d05516d4372" label="Login" max_length="40" name="x_1174267_now_pr_0_login" type="collection">
-        <element label="password" mandatory="true" max_length="255" name="password" type="password2"/>
-        <element label="username" mandatory="true" max_length="50" name="username" type="string"/>
-    </element>
-</database>

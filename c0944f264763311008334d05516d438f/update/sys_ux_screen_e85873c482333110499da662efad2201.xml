@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Now Pro - Aula 06 Config">245873c40a333110481f0c76ec487e17</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ {
   "eventMappingId" : "clddhhlkqjpaachhiiddfggzjjvfffilxo",
   "isConfiguration" : false,

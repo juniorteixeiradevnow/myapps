@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1174267_now_pr_0.GetIncidentsInstance</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GetIncidentsInstance</name>
+        <script><![CDATA[var GetIncidentsInstance = Class.create();
+GetIncidentsInstance.prototype = {
+    initialize: function() {
+    },
+	obterIncidentesPorIntegracao: function() {
+
+        var obterIncidentes = new sn_ws.RESTMessageV2('x_1174267_now_pr_0.ApiOutraInstancia2', 'GET');
+
+        var Response = obterIncidentes.execute();
+        var Body = Response.getBody();
+        var Collection = JSON.parse(Body);
+        var Result = Collection.result;
+
+        this.gravarIncidentesIntegracao(Result);
+
+    },
+	gravarIncidentesIntegracao: function(Result) {
+
+        Result.forEach(function(Incidentes) {
+
+            var gravarIncidente = new GlideRecord('incident');
+
+            gravarIncidente.initialize();
+
+            gravarIncidente.state = Incidentes.state;
+            gravarIncidente.impact = Incidentes.impact;
+            gravarIncidente.active = Incidentes.active;
+            gravarIncidente.priority = Incidentes.priority;
+			gravarIncidente.short_description = Incidentes.short_description;
+            gravarIncidente.description = Incidentes.description;
+            gravarIncidente.category = Incidentes.category;
+            gravarIncidente.assigned_to = Incidentes.assigned_to;
+            gravarIncidente.caller_id = Incidentes.assigned_id;
+            gravarIncidente.u_incident_source = Incidentes.sys_id;
+            gravarIncidente.work_notes = "INCIDENTE DE ORIGEM: " + Incidentes.number;
+			gravarIncidente.insert();
+
+            gs.info("INCIDENTE GRAVADO " + Incidentes.number);
+
+        });
+	},
+
+    type: 'GetIncidentsInstance'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-24 12:21:23</sys_created_on>
+        <sys_id>7dfb00759728ca105e9fb680f053af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetIncidentsInstance</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_script_include_7dfb00759728ca105e9fb680f053af13</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-24 12:21:23</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sys_script_include_7dfb00759728ca105e9fb680f053af13</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1174267_now_pr_0.GetIncidentsInstance&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GetIncidentsInstance&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetIncidentsInstance = Class.create();
+GetIncidentsInstance.prototype = {
+    initialize: function() {
+    },
+	obterIncidentesPorIntegracao: function() {
+
+        var obterIncidentes = new sn_ws.RESTMessageV2('x_1174267_now_pr_0.ApiOutraInstancia2', 'GET');
+
+        var Response = obterIncidentes.execute();
+        var Body = Response.getBody();
+        var Collection = JSON.parse(Body);
+        var Result = Collection.result;
+
+        this.gravarIncidentesIntegracao(Result);
+
+    },
+	gravarIncidentesIntegracao: function(Result) {
+
+        Result.forEach(function(Incidentes) {
+
+            var gravarIncidente = new GlideRecord('incident');
+
+            gravarIncidente.initialize();
+
+            gravarIncidente.state = Incidentes.state;
+            gravarIncidente.impact = Incidentes.impact;
+            gravarIncidente.active = Incidentes.active;
+            gravarIncidente.priority = Incidentes.priority;
+			gravarIncidente.short_description = Incidentes.short_description;
+            gravarIncidente.description = Incidentes.description;
+            gravarIncidente.category = Incidentes.category;
+            gravarIncidente.assigned_to = Incidentes.assigned_to;
+            gravarIncidente.caller_id = Incidentes.assigned_id;
+            gravarIncidente.u_incident_source = Incidentes.sys_id;
+            gravarIncidente.work_notes = "INCIDENTE DE ORIGEM: " + Incidentes.number;
+			gravarIncidente.insert();
+
+            gs.info("INCIDENTE GRAVADO " + Incidentes.number);
+
+        });
+	},
+
+    type: 'GetIncidentsInstance'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-24 12:21:23&lt;/sys_created_on&gt;&lt;sys_id&gt;7dfb00759728ca105e9fb680f053af13&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetIncidentsInstance&lt;/sys_name&gt;&lt;sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0"&gt;c0944f264763311008334d05516d438f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Now Pro - Aula 06"&gt;c0944f264763311008334d05516d438f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_7dfb00759728ca105e9fb680f053af13&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-24 12:21:23&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2086439540</payload_hash>
+        <record_name>GetIncidentsInstance</record_name>
+        <reverted_from/>
+        <source>252da02897a046105e9fb680f053af8d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-24 12:21:23</sys_created_on>
+        <sys_id>eb1c44759728ca105e9fb680f053af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ddb1020770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-24 12:21:23</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>ef1c44750728ca10b5d6ca8b2b611d95</update_guid>
+        <update_guid_history>ef1c44750728ca10b5d6ca8b2b611d95:-2086439540</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-24 12:22:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>19fb0c1e535f4086977c7ba61e05b964</sys_id>
+        <sys_metadata>7dfb00759728ca105e9fb680f053af13</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetIncidentsInstance</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_scope_delete display_value="">17306355dace42ec92787b9413e336c9</sys_scope_delete>
+        <sys_update_name>sys_script_include_7dfb00759728ca105e9fb680f053af13</sys_update_name>
+        <sys_update_version display_value="sys_script_include_7dfb00759728ca105e9fb680f053af13">eb1c44759728ca105e9fb680f053af96</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-24 12:22:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

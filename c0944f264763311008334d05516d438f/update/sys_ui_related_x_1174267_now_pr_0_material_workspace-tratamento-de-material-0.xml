@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1174267_now_pr_0_material" version="2" view="workspace-tratamento-de-material-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="material - Workspace Tratamento de material 0" name="x_1174267_now_pr_0_material" related_list="NULL" sys_domain="global" view="de100d6cf8244610c1a35653a8093802">3b108d6c972446105e9fb680f053af9d</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-20 18:56:12</sys_created_on>
+            <sys_id>f7108d6c972446105e9fb680f053af9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-20 18:56:12</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>material - Workspace Tratamento de material 0</calculated_name>
+            <filter/>
+            <name>x_1174267_now_pr_0_material</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-20 18:56:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b108d6c972446105e9fb680f053af9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>material - Workspace Tratamento de material 0</sys_name>
+            <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+            <sys_update_name>sys_ui_related_x_1174267_now_pr_0_material_workspace-tratamento-de-material-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-20 18:56:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Tratamento de material 0" name="workspace-tratamento-de-material-0">de100d6cf8244610c1a35653a8093802</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

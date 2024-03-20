@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 13:31:51</sys_created_on>
+        <sys_id>3abf48784740021008334d05516d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1174267_now_pr_0_login.x_1174267_now_pr_0.login_user</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_security_acl display_value="x_1174267_now_pr_0_login">3ebf48784740021008334d05516d432f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3abf48784740021008334d05516d4333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 13:31:51</sys_updated_on>
+        <sys_user_role display_value="x_1174267_now_pr_0.login_user" name="x_1174267_now_pr_0.login_user">6abfc4784740021008334d05516d43f9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sys_security_acl_role_3abf48784740021008334d05516d4333</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 13:31:51</sys_created_on>
+        <sys_id>3abf48784740021008334d05516d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1174267_now_pr_0_login.x_1174267_now_pr_0.login_user</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_security_acl display_value="x_1174267_now_pr_0_login">3ebf48784740021008334d05516d432f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3abf48784740021008334d05516d4333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 13:31:51</sys_updated_on>
+        <sys_user_role display_value="x_1174267_now_pr_0.login_user" name="x_1174267_now_pr_0.login_user">6abfc4784740021008334d05516d43f9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-395912670</payload_hash>
+        <record_name>x_1174267_now_pr_0_login.x_1174267_now_pr_0.login_user</record_name>
+        <reverted_from/>
+        <source>18dca82897a046105e9fb680f053af85</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 17:32:08</sys_created_on>
+        <sys_id>e4ec246897a046105e9fb680f053afab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc79330860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 17:32:08</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a4ec246869a0461004b890104a9e92ab</update_guid>
+        <update_guid_history>a4ec246869a0461004b890104a9e92ab:-395912670</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1174267_now_pr_0_login.x_1174267_now_pr_0.login_user">366dbc28972446105e9fb680f053afb3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 18:44:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>47d47dee71464bbd916d861c0256cd59</sys_id>
+        <sys_metadata>3abf48784740021008334d05516d4333</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1174267_now_pr_0_login.x_1174267_now_pr_0.login_user</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_parent display_value="">3ebf48784740021008334d05516d432f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_scope_delete display_value="">17306355dace42ec92787b9413e336c9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_3abf48784740021008334d05516d4333</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_3abf48784740021008334d05516d4333">e4ec246897a046105e9fb680f053afab</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 18:44:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

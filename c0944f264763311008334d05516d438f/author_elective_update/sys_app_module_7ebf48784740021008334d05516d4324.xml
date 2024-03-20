@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Login">72bf48784740021008334d05516d4321</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Logins</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1174267_now_pr_0_login</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1174267_now_pr_0.login_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 13:31:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ebf48784740021008334d05516d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Logins</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_app_module_7ebf48784740021008334d05516d4324</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 13:31:51</sys_updated_on>
+        <timeline_page/>
+        <title>Logins</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sys_app_module_7ebf48784740021008334d05516d4324</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Login">72bf48784740021008334d05516d4321</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Logins</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1174267_now_pr_0_login</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1174267_now_pr_0.login_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 13:31:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ebf48784740021008334d05516d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Logins</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_app_module_7ebf48784740021008334d05516d4324</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 13:31:51</sys_updated_on>
+        <timeline_page/>
+        <title>Logins</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>-528021681</payload_hash>
+        <record_name>Logins</record_name>
+        <reverted_from/>
+        <source>18dca82897a046105e9fb680f053af85</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 17:32:00</sys_created_on>
+        <sys_id>16dcec2897a046105e9fb680f053af5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc7930fba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 17:32:00</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d2dcec2859a046107b135ced5205f95b</update_guid>
+        <update_guid_history>d2dcec2859a046107b135ced5205f95b:-528021681</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Logins">0b6dbc28972446105e9fb680f053afdf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 18:44:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>632169e5a70c4cc6ae282ed90d3cd744</sys_id>
+        <sys_metadata>7ebf48784740021008334d05516d4324</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Logins</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_scope_delete display_value="">17306355dace42ec92787b9413e336c9</sys_scope_delete>
+        <sys_update_name>sys_app_module_7ebf48784740021008334d05516d4324</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7ebf48784740021008334d05516d4324">16dcec2897a046105e9fb680f053af5b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 18:44:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="from" label="From" language="en" table="var__m_sys_hub_step_ext_output_3ae60dd347a3311008334d05516d4368">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>from</element>
+            <help/>
+            <hint/>
+            <label>From</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_3ae60dd347a3311008334d05516d4368</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-10 15:39:54</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>From</sys_name>
+            <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3ae60dd347a3311008334d05516d4368_from_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-10 16:53:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

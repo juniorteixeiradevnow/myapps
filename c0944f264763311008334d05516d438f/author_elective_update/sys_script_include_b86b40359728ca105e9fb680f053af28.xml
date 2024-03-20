@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1174267_now_pr_0.ApiOutraInstancia2</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ApiOutraInstancia2</name>
+        <script><![CDATA[var ApiOutraInstancia2 = Class.create();
+ApiOutraInstancia2.prototype = {
+    initialize: function() {
+    },
+	obterIncidentesPorIntegracao: function() {
+
+        var obterIncidentes = new sn_ws.RESTMessageV2('x_1174267_now_pr_0.ApiOutraInstancia2', 'GET');
+
+        var Response = obterIncidentes.execute();
+        var Body = Response.getBody();
+        var Collection = JSON.parse(Body);
+        var Result = Collection.result;
+
+        this.gravarIncidentesIntegracao(Result);
+
+    },
+	gravarIncidentesIntegracao: function(Result) {
+
+        Result.forEach(function(Incidentes) {
+
+            var gravarIncidente = new GlideRecord('incident');
+
+            gravarIncidente.initialize();
+
+            gravarIncidente.state = Incidentes.state;
+            gravarIncidente.impact = Incidentes.impact;
+            gravarIncidente.active = Incidentes.active;
+            gravarIncidente.priority = Incidentes.priority;
+			gravarIncidente.short_description = Incidentes.short_description;
+            gravarIncidente.description = Incidentes.description;
+            gravarIncidente.category = Incidentes.category;
+            gravarIncidente.assigned_to = Incidentes.assigned_to;
+            gravarIncidente.caller_id = Incidentes.assigned_id;
+            gravarIncidente.u_incident_source = Incidentes.sys_id;
+            gravarIncidente.work_notes = "INCIDENTE DE ORIGEM: " + Incidentes.number;
+			gravarIncidente.insert();
+
+            gs.info("INCIDENTE GRAVADO " + Incidentes.number);
+
+        });
+	},
+
+    type: 'ApiOutraInstancia2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-24 12:18:32</sys_created_on>
+        <sys_id>b86b40359728ca105e9fb680f053af28</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ApiOutraInstancia2</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_update_name>sys_script_include_b86b40359728ca105e9fb680f053af28</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-24 12:19:21</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sys_script_include_b86b40359728ca105e9fb680f053af28</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1174267_now_pr_0.ApiOutraInstancia2&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;ApiOutraInstancia2&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var ApiOutraInstancia2 = Class.create();
+ApiOutraInstancia2.prototype = {
+    initialize: function() {
+    },
+	obterIncidentesPorIntegracao: function() {
+
+        var obterIncidentes = new sn_ws.RESTMessageV2('x_1174267_now_pr_0.ApiOutraInstancia2', 'GET');
+
+        var Response = obterIncidentes.execute();
+        var Body = Response.getBody();
+        var Collection = JSON.parse(Body);
+        var Result = Collection.result;
+
+        this.gravarIncidentesIntegracao(Result);
+
+    },
+	gravarIncidentesIntegracao: function(Result) {
+
+        Result.forEach(function(Incidentes) {
+
+            var gravarIncidente = new GlideRecord('incident');
+
+            gravarIncidente.initialize();
+
+            gravarIncidente.state = Incidentes.state;
+            gravarIncidente.impact = Incidentes.impact;
+            gravarIncidente.active = Incidentes.active;
+            gravarIncidente.priority = Incidentes.priority;
+			gravarIncidente.short_description = Incidentes.short_description;
+            gravarIncidente.description = Incidentes.description;
+            gravarIncidente.category = Incidentes.category;
+            gravarIncidente.assigned_to = Incidentes.assigned_to;
+            gravarIncidente.caller_id = Incidentes.assigned_id;
+            gravarIncidente.u_incident_source = Incidentes.sys_id;
+            gravarIncidente.work_notes = "INCIDENTE DE ORIGEM: " + Incidentes.number;
+			gravarIncidente.insert();
+
+            gs.info("INCIDENTE GRAVADO " + Incidentes.number);
+
+        });
+	},
+
+    type: 'ApiOutraInstancia2'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-24 12:18:32&lt;/sys_created_on&gt;&lt;sys_id&gt;b86b40359728ca105e9fb680f053af28&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;ApiOutraInstancia2&lt;/sys_name&gt;&lt;sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0"&gt;c0944f264763311008334d05516d438f&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Now Pro - Aula 06"&gt;c0944f264763311008334d05516d438f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b86b40359728ca105e9fb680f053af28&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-24 12:19:21&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>597800752</payload_hash>
+        <record_name>ApiOutraInstancia2</record_name>
+        <reverted_from/>
+        <source>252da02897a046105e9fb680f053af8d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-24 12:19:21</sys_created_on>
+        <sys_id>fdab4c359728ca105e9fb680f053af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ddb0e43f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-24 12:19:21</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>75ab4c359828ca106bf582e25958a30a</update_guid>
+        <update_guid_history>75ab4c359828ca106bf582e25958a30a:597800752,e97b4cf1b828ca107c0975aab984d1e7:1789337792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-24 12:20:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>40c5917f41204a8093c9005cf8ece004</sys_id>
+        <sys_metadata>b86b40359728ca105e9fb680f053af28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ApiOutraInstancia2</sys_name>
+        <sys_package display_value="Now Pro - Aula 06" source="x_1174267_now_pr_0">c0944f264763311008334d05516d438f</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Now Pro - Aula 06">c0944f264763311008334d05516d438f</sys_scope>
+        <sys_scope_delete display_value="">17306355dace42ec92787b9413e336c9</sys_scope_delete>
+        <sys_update_name>sys_script_include_b86b40359728ca105e9fb680f053af28</sys_update_name>
+        <sys_update_version display_value="sys_script_include_b86b40359728ca105e9fb680f053af28">fdab4c359728ca105e9fb680f053af0a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-24 12:20:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

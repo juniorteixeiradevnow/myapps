@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c3464ba64763311008334d05516d43cb" extends="task" label="material" max_length="40" name="x_1174267_now_pr_0_material" text_index="true" type="collection">
         <element label="Email" max_length="50" name="email" type="string"/>
-        <element choice="1" label="Materiais" max_length="40" name="materiais" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Detergente" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Pano de chão" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Desinfetante" sequence="2" value="3"/>
-            </choice>
-        </element>
+        <element label="Materiais" max_length="32" name="materiais" reference="x_1174267_now_pr_0_tipo_de_material" type="reference"/>
         <element label="Quantidade" max_length="40" name="quantidade" type="integer"/>
         <element label="Solicitante" max_length="32" name="solicitante" reference="sys_user" type="reference"/>
     </element>
